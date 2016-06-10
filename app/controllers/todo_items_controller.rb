@@ -15,6 +15,7 @@ class TodoItemsController < ApplicationController
   # GET /todo_items/new
   def new
     @todo_item = TodoItem.new
+    puts @todo_item.completed
   end
 
   # GET /todo_items/1/edit
